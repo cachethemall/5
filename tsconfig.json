@@ -15,9 +15,12 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
   },
   "include": ["src"]
 }
